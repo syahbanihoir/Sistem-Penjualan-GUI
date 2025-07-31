@@ -1,0 +1,15 @@
+Jika fitur cetak laporan excel eror seperti kalimat dibawah ini:
+- java.io.FileNotFoundException: C:\Laporan_Sistem_Penjualan_GUI\LapStok.xlsx (The system cannot find the path specified)
+
+atau 
+
+- java.io.FileNotFoundException: C:\Laporan_Sistem_Penjualan_GUI\LapPendapatan.xlsx (The system cannot find the path specified)
+
+atau
+
+- java.io.FileNotFoundException: C:\Laporan_Sistem_Penjualan_GUI\BuktiPesan.xlsx (The system cannot find the path specified)
+
+
+eror terjadi karena software netbeans anda tidak berjalan sebagai Administrator atau netbeans tidak punya hak akses untuk membaca file di C:\ secara langsung.
+
+untuk mengatasinya buka software netbeans dengan cara klik kanan dan pilin run as administrator jika masih belum bisa buatlah folder secara manual dengan nama Laporan_Sistem_Penjualan_GUI pada lokasi Disk C:\
